@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachines_vm1_DR_name": {
+            "value": null
+        },
+        "bastionHosts_bastion_DR_name": {
+            "value": null
+        },
+        "virtualMachines_vm_mfg_DR_name": {
+            "value": null
+        },
+        "routeTables_rt_snet_web_DR_name": {
+            "value": null
+        },
+        "virtualNetworks_vnet_mfg_DR_name": {
+            "value": null
+        },
+        "networkInterfaces_nic_vm1_DR_name": {
+            "value": null
+        },
+        "virtualNetworks_vnet_core_DR_name": {
+            "value": null
+        },
+        "networkInterfaces_nic_vm_mfg_DR_name": {
+            "value": null
+        },
+        "publicIPAddresses_pip_bastion_DR_name": {
+            "value": null
+        }
+    }
+}
